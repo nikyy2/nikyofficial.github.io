@@ -3,7 +3,6 @@ html, body {
   padding: 0;
   height: 100%;
   overflow-x: hidden;
-  background-color: #000;
   background-image: url('background.png');
   background-size: cover;
   background-position: center;
