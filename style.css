@@ -4,21 +4,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #000;
   background-image: url('background.png');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .card {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width: 320px;
-  height: 500px; 
+  width: 90%;
+  max-width: 320px;
+  height: auto;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   color: white;
   backdrop-filter: blur(10px);
   display: flex;
@@ -39,12 +42,11 @@ body {
 .card h2 {
   font-size: 1.6em;
   font-weight: bold;
-  margin: 0px 0;
+  margin: 0;
 }
 
 .card .info {
   font-size: 1em;
-  font
   color: #ddd;
   margin-bottom: 70px;
 }
@@ -53,7 +55,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .social-icon {
@@ -76,4 +78,3 @@ body {
 .footer p {
   margin: 0;
 }
-
